@@ -1,0 +1,33 @@
+{
+  "name": "lucs-dark",
+  "displayName": "Lucs dark",
+  "description": "Lcscostadev dark theme",
+  "version": "0.0.1",
+  "publisher": "lcscostadev",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "lcscostadev",
+    "lucs",
+    "lcscostaa"
+  ],
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lucs Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lucs Dark-color-theme.json"
+      }
+    ]
+  }
+}
